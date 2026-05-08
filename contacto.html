@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto — Lavandería Gabriel's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg lavanav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="img/logotipo01.png" alt="logo" width="110">
+                <div class="d-flex flex-column">
+                    <span class="brand-top">Lavandería</span>
+                    <span class="brand-name">Gabriel's</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">🏠 Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">✨ Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">💜 Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link activo-real" href="contacto.html">📞 Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ══ FAQ ══ -->
+        <section id="faq" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5 fade-in">
+                    <span class="section-badge">Resolvemos tus dudas 💕</span>
+                    <h2 class="section-title">Preguntas frecuentes</h2>
+                    <p style="color:var(--texto-claro); font-weight:600;">Todo lo que necesitas saber antes de
+                        escribirnos.</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion accordion-flush rounded-4 overflow-hidden fade-in" id="faqAccordion"
+                            style="background:rgba(255,255,255,0.5); backdrop-filter:blur(8px); border:2px solid var(--rosa-medio); border-radius:24px !important;">
+
+                            <div class="accordion-item border-0 border-bottom"
+                                style="border-color: var(--rosa-medio) !important;">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq1">
+                                        🕐 ¿Cuánto tiempo demora el servicio normal?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        El servicio normal demora entre <strong>48 a 72 horas</strong> desde el recojo.
+                                        Si necesitas tu ropa antes, tenemos el servicio express con entrega en 24 horas.
+                                        ⚡
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0 border-bottom"
+                                style="border-color: var(--rosa-medio) !important;">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-semibold collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        🗺️ ¿Qué zonas de Lima cubren con el delivery?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Actualmente cubrimos Villa el Salvador. Consúltanos por WhatsApp si tu zona no está en la
+                                        lista. 📍
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0 border-bottom"
+                                style="border-color: var(--rosa-medio) !important;">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-semibold collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        🏠 ¿Puedo dejar mi ropa sin estar en casa?
+                                    </button>
+                                </h2>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        ¡Sí! Coordinamos con portería para el recojo y
+                                        entrega. Solo avísanos con anticipación. 😊
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0 border-bottom"
+                                style="border-color: var(--rosa-medio) !important;">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-semibold collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        💳 ¿Qué métodos de pago aceptan?
+                                    </button>
+                                </h2>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Aceptamos efectivo, Yape. El pago se realiza al
+                                        momento de la entrega. 💸
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ CONTACTO ══ -->
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5 fade-in">
+                    <span class="section-badge">Escríbenos 🌸</span>
+                    <h2 class="section-title">Estamos para ti</h2>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+
+                    <!-- HORARIOS -->
+                    <div class="col-md-5 fade-in">
+                        <div class="card p-4 h-100">
+                            <h5 class="fw-bold mb-4" style="color:var(--lila-oscuro)">
+                                🕐 Horarios de atención
+                            </h5>
+                            <div class="horario-row d-flex justify-content-between">
+                                <span>Lunes – Viernes</span>
+                                <span class="fw-semibold">8:00 am – 8:00 pm</span>
+                            </div>
+                            <div class="horario-row d-flex justify-content-between">
+                                <span>Sábados</span>
+                                <span class="fw-semibold">8:00 am – 6:00 pm</span>
+                            </div>
+                            <div class="horario-row d-flex justify-content-between">
+                                <span>Domingos</span>
+                                <span class="fw-semibold" style="color:var(--texto-claro); opacity:0.6">Cerrado
+                                    😴</span>
+                            </div>
+
+                            <hr style="border-color:var(--rosa-medio)">
+
+                            <h6 class="fw-bold mb-3" style="color:var(--lila-oscuro)">💬 Canales de contacto</h6>
+                            <p class="mb-2" style="color:var(--texto-claro); font-weight:600;">
+                                <i class="bi bi-whatsapp text-success me-2"></i>+51 926 646 175
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FORMULARIO -->
+                    <div class="col-md-7 fade-in">
+                        <div class="card p-4 h-100">
+                            <h5 class="fw-bold mb-4" style="color:var(--lila-oscuro)">
+                                💌 Envíanos un mensaje
+                            </h5>
+
+                            <div class="mb-3">
+                                <label class="form-label">Nombre completo</label>
+                                <input type="text" class="form-control" placeholder="Tu nombre 🌸" id="fNombre">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Teléfono / WhatsApp</label>
+                                <input type="tel" class="form-control" placeholder="+51 999 000 000" id="fTelefono">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Servicio de interés</label>
+                                <select class="form-select" id="fServicio">
+                                    <option value="">Selecciona un servicio...</option>
+                                    <option>Lavado normal</option>
+                                    <option>Lavado en seco</option>
+                                    <option>Ropa de bebé</option>
+                                    <option>Servicio express</option>
+                                    <option>Planchado</option>
+                                    <option>Recojo y delivery</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Mensaje</label>
+                                <textarea class="form-control" rows="3"
+                                    placeholder="Cuéntanos en qué podemos ayudarte... 💕" id="fMensaje"></textarea>
+                            </div>
+
+                            <button onclick="enviarWhatsApp()"
+                                class="btn btn-success w-100 rounded-pill d-flex align-items-center justify-content-center gap-2"
+                                style="font-size:1rem; padding:14px;">
+                                <i class="bi bi-whatsapp fs-5"></i>
+                                Enviar por WhatsApp 💬
+                            </button>
+                            <p class="text-center mt-2 mb-0"
+                                style="font-size:0.78rem; color:var(--texto-claro); font-weight:600;">
+                                Te redirigiremos a WhatsApp para enviar el mensaje.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ══ TOAST ══ -->
+    <div class="toast-container position-fixed bottom-0 start-0 p-3" style="z-index:1100;">
+        <div id="welcomeToast" class="toast align-items-center border-0" role="alert" data-bs-delay="8000">
+            <div class="d-flex">
+                <div class="toast-body text-white fw-bold">
+                    🎀 ¡Hola! Escríbenos y recibe <strong>20% de descuento</strong> en tu primer servicio.
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/51926646175" class="whatsapp-btn" title="Escríbenos por WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <footer class="pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>Gabriel's 💜</h4>
+                    <p class="small opacity-75">Tu ropa limpia, fresca y lista en tiempo récord. Calidad, confianza y
+                        atención personalizada.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Servicios</h5>
+                    <ul class="list-unstyled small opacity-75">
+                        <li>🌸 Lavado normal</li>
+                        <li>🌸 Lavado en seco</li>
+                        <li>🌸 Planchado</li>
+                        <li>🌸 Servicio express</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contacto</h5>
+                    <p class="mb-1 small opacity-75"><i class="bi bi-whatsapp"> 926 646 175</i></p>
+
+                </div>
+            </div>
+            <hr class="border-light opacity-25">
+            <div class="text-center small opacity-60">© 2026 Lavandería Gabriel's · Todos los derechos reservados 💜
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="apps.js"></script>
+    <script>
+        function enviarWhatsApp() {
+            const nombre = document.getElementById('fNombre').value.trim();
+            const telefono = document.getElementById('fTelefono').value.trim();
+            const servicio = document.getElementById('fServicio').value;
+            const mensaje = document.getElementById('fMensaje').value.trim();
+            const texto = `🌸 *Hola Lavandería Gabriel's!*\n\n👤 Nombre: ${nombre || 'No indicado'}\n📞 Teléfono: ${telefono || 'No indicado'}\n🧺 Servicio: ${servicio || 'No indicado'}\n💬 Mensaje: ${mensaje || 'Sin mensaje'}`;
+            const url = `https://wa.me/51926646175?text=${encodeURIComponent(texto)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+
+</html>

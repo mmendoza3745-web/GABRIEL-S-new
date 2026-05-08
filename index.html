@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavandería Gabriel's — Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ══ NAVBAR ══ -->
+    <nav class="navbar navbar-expand-lg lavanav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="img/logotipo01.png" alt="logo" width="110">
+                <div class="d-flex flex-column">
+                    <span class="brand-top">Lavandería</span>
+                    <span class="brand-name">Gabriel's</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link activo-real" href="index.html">🏠 Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">✨ Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">💜 Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">📞 Contacto</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ══ HERO CAROUSEL ══ -->
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4500">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="carousel-slide slide-1">
+                        <div>
+                            <span class="carousel-icon">🧺</span>
+                            <h1>Lavandería Gabriel's</h1>
+                            <p>Rápido, económico y con mucho cariño ✨ Tu ropa en las mejores manos.</p>
+                            <a href="https://wa.me/51926646175"
+                                class="btn btn-light btn-lg rounded-pill px-4 fw-semibold">
+                                <i class="bi bi-whatsapp text-success me-2"></i>Contáctanos ahora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-slide slide-2">
+                        <div>
+                            <span class="carousel-icon">🎀</span>
+                            <h1>20% de descuento</h1>
+                            <p>¡En tu primer servicio! Solo por este mes — aprovecha esta oferta especial.</p>
+                            <a href="https://wa.me/51926646175"
+                                class="btn btn-light btn-lg rounded-pill px-4 fw-semibold">
+                                Pedir mi descuento 💕
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-slide slide-3">
+                        <div>
+                            <span class="carousel-icon">🚗</span>
+                            <h1>Delivery gratuito</h1>
+                            <p>En pedidos mayores a S/ 30 — recogemos y entregamos en la puerta de tu casa.</p>
+                            <a href="https://wa.me/51926646175"
+                                class="btn btn-light btn-lg rounded-pill px-4 fw-semibold">
+                                Solicitar delivery 🛍️
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- ══ PROMOS ══ -->
+        <div class="container mt-4">
+            <div class="promo-banner alert-dismissible fade show" role="alert">
+                <strong>¡Promo activa!</strong> &nbsp;20% de descuento en tu primer servicio · Válido este mes
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert"></button>
+            </div>
+            <div class="promo-banner info alert-dismissible fade show" role="alert">
+                🚗 <strong>Delivery gratis</strong> en pedidos mayores a S/ 30 dentro de Lima
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+
+        <!-- ══ SERVICIOS ══ -->
+        <section id="servicios" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5 fade-in">
+                    <span class="section-badge">Lo que ofrecemos 💜</span>
+                    <h2 class="section-title">Nuestros Servicios</h2>
+                    <p style="color:var(--texto-claro); font-weight:600;">Todo lo que tu ropa necesita, en un solo
+                        lugar.</p>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-md-4 fade-in">
+                        <div class="service-card">
+                            <div class="service-icon">🧺</div>
+                            <h5>Lavado Normal</h5>
+                            <p>"Lavado y secado con mimo. Tu ropa queda fresca, impecable y lista para brillar."</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="service-card">
+                            <div class="service-icon">👗</div>
+                            <h5>Lavado en Seco</h5>
+                            <p>Perfecto para prendas delicadas, trajes, vestidos de noche y ropa especial.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="service-card">
+                            <div class="service-icon">👶</div>
+                            <h5>Ropa de Bebé</h5>
+                            <p>Suavidad que abraza, limpieza que cuida a tu bebé</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="service-card">
+                            <div class="service-icon">⚡</div>
+                            <h5>Servicio Express</h5>
+                            <p>¿Necesitas tu ropa urgente? Entrega en 24 horas para esas situaciones especiales.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="service-card">
+                            <div class="service-icon">🏠</div>
+                            <h5>Delivery a Domicilio</h5>
+                            <p>Recogemos y entregamos en la puerta de tu casa. ¡Sin que te muevas!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="service-card">
+                            <div class="service-icon">👟</div>
+                            <h5>Lavado de Zapatillas</h5>
+                            <p>Tus zapatillas como nuevas con nuestro proceso especializado y cuidado.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ PRECIOS ══ -->
+        <section id="precios" class="py-2">
+            <div class="container">
+                <div class="text-center mb-5 fade-in">
+                    <span class="section-badge">Precios claros 🎀</span>
+                    <h2 class="section-title">Planes & Tarifas</h2>
+                    <p style="color:var(--texto-claro); font-weight:600;">Sin sorpresas, sin letras chiquitas.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-md-4 fade-in">
+                        <div class="price-card">
+                            <h5 class="fw-bold" style="color:var(--lila-oscuro)">Básico</h5>
+                            <p style="color:var(--texto-claro); font-size:0.85rem">Solo lavado o secado</p>
+                            <div class="price-amount">S/ 2.50</div>
+                            <p style="color:var(--texto-claro); margin-bottom:20px; font-size:0.85rem">por kilogramo</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li class="mb-2">💜 Lavado con detergente o</li>
+                                <li class="mb-2">💜 Secado completo</li>
+                                <li class="mb-2" style="opacity:0.4">🚫 Planchado</li>
+                                <li class="mb-2" style="opacity:0.4">🚫 Express</li>
+                            </ul>
+                            <a href="https://wa.me/51926646175"
+                                class="btn btn-outline-primary w-100 rounded-pill">Solicitar</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="price-card featured">
+                            <span class="price-badge">⭐ Más popular</span>
+                            <h5 class="fw-bold mt-2" style="color:var(--lila-oscuro)">Completo</h5>
+                            <p style="color:var(--texto-claro); font-size:0.85rem">Lavado + secado + semi planchado</p>
+                            <div class="price-amount">S/ 3.50</div>
+                            <p style="color:var(--texto-claro); margin-bottom:20px; font-size:0.85rem">por kilogramo</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li class="mb-2">💜 Lavado con detergente</li>
+                                <li class="mb-2">💜 Secado completo</li>
+                                <li class="mb-2">💜 Doblado prolijo</li>
+                                <li class="mb-2">💜 Semi planchado incluido</li>
+                                <li class="mb-2" style="opacity:0.4">🚫 Express</li>
+                            </ul>
+                            <a href="https://wa.me/51926646175" class="btn btn-primary w-100 rounded-pill">Solicitar</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 fade-in">
+                        <div class="price-card">
+                            <h5 class="fw-bold" style="color:var(--lila-oscuro)">Express</h5>
+                            <p style="color:var(--texto-claro); font-size:0.85rem">Entrega garantizada en 24 h</p>
+                            <div class="price-amount">S/ 4.00</div>
+                            <p style="color:var(--texto-claro); margin-bottom:20px; font-size:0.85rem">por kilogramo</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li class="mb-2">💜 Lavado con detergente</li>
+                                <li class="mb-2">💜 Secado completo</li>
+                                <li class="mb-2">💜 Doblado prolijo</li>
+                                <li class="mb-2">💜 Semi planchado</li>
+                                <li class="mb-2">⚡ Entrega en 24 h</li>
+                            </ul>
+                            <a href="https://wa.me/51926646175"
+                                class="btn btn-outline-primary w-100 rounded-pill">Solicitar</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ PROCESO ══ -->
+        <section id="proceso" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5 fade-in">
+                    <span class="section-badge">Fácil y rápido 🌸</span>
+                    <h2 class="section-title">¿Cómo funciona?</h2>
+                    <p style="color:var(--texto-claro); font-weight:600;">Solo 4 pasos y tu ropa estará impecable.</p>
+                </div>
+                <div class="row text-center g-4">
+                    <div class="col-6 col-md-3 fade-in">
+                        <div class="step-circle">1</div>
+                        <div style="font-size:2.2rem; margin-bottom:8px;">💬</div>
+                        <h6 class="fw-bold" style="color:var(--lila-oscuro)">Contáctanos</h6>
+                        <p style="color:var(--texto-claro); font-size:0.85rem">Escríbenos por WhatsApp y coordina tu
+                            pedido.</p>
+                    </div>
+                    <div class="col-6 col-md-3 fade-in">
+                        <div class="step-circle">2</div>
+                        <div style="font-size:2.2rem; margin-bottom:8px;">🧺</div>
+                        <h6 class="fw-bold" style="color:var(--lila-oscuro)">Recojo</h6>
+                        <p style="color:var(--texto-claro); font-size:0.85rem">Recogemos tu ropa en la puerta de tu
+                            casa.</p>
+                    </div>
+                    <div class="col-6 col-md-3 fade-in">
+                        <div class="step-circle">3</div>
+                        <div style="font-size:2.2rem; margin-bottom:8px;">✨</div>
+                        <h6 class="fw-bold" style="color:var(--lila-oscuro)">Lavamos</h6>
+                        <p style="color:var(--texto-claro); font-size:0.85rem">"Aplicamos el tratamiento ideal para cada
+                            tipo de tela."</p>
+                    </div>
+                    <div class="col-6 col-md-3 fade-in">
+                        <div class="step-circle">4</div>
+                        <div style="font-size:2.2rem; margin-bottom:8px;">🎀</div>
+                        <h6 class="fw-bold" style="color:var(--lila-oscuro)">Entregamos</h6>
+                        <p style="color:var(--texto-claro); font-size:0.85rem">Tu ropa limpia y lista en tu domicilio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ══ TOAST BIENVENIDA ══ -->
+    <div class="toast-container position-fixed bottom-0 start-0 p-3" style="z-index:1100;">
+        <div id="welcomeToast" class="toast align-items-center border-0" role="alert" data-bs-delay="8000">
+            <div class="d-flex">
+                <div class="toast-body text-white fw-bold">
+                    🎀 ¡Hola! Escríbenos y recibe <strong>20% de descuento</strong> en tu primer servicio.
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══ WHATSAPP FLOTANTE ══ -->
+    <a href="https://wa.me/51926646175" class="whatsapp-btn" title="Escríbenos por WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- ══ FOOTER ══ -->
+    <footer class="pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>Gabriel's 💜</h4>
+                    <p class="small opacity-75">Tu ropa limpia, fresca y lista en tiempo récord. Calidad, confianza y
+                        atención personalizada.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Servicios</h5>
+                    <ul class="list-unstyled small opacity-75">
+                        <li>🌸 Lavado normal</li>
+                        <li>🌸 Lavado en seco</li>
+                        <li>🌸 Planchado</li>
+                        <li>🌸 Servicio express</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contacto</h5>
+                    <p class="mb-1 small opacity-75"><i class="bi bi-whatsapp"> 926 646 175</i></p>
+
+                </div>
+            </div>
+            <hr class="border-light opacity-25">
+            <div class="text-center small opacity-60">© 2026 Lavandería Gabriel's · Todos los derechos reservados 💜
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="apps.js"></script>
+</body>
+
+</html>
